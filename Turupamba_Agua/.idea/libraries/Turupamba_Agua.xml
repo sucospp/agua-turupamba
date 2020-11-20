@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="Turupamba_Agua">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/dist/Turupamba_Agua.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

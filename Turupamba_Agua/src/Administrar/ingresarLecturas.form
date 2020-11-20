@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.9" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="2"/>
+    <Property name="title" type="java.lang.String" value="INGRESAR LECTURAS"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <Events>
+    <EventHandler event="windowOpened" listener="java.awt.event.WindowListener" parameters="java.awt.event.WindowEvent" handler="formWindowOpened"/>
+  </Events>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+    <AuxValue name="designerSize" type="java.awt.Dimension" value="-84,-19,0,5,115,114,0,18,106,97,118,97,46,97,119,116,46,68,105,109,101,110,115,105,111,110,65,-114,-39,-41,-84,95,68,20,2,0,2,73,0,6,104,101,105,103,104,116,73,0,5,119,105,100,116,104,120,112,0,0,2,38,0,0,4,69"/>
+  </AuxValues>
+
+  <Layout class="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout">
+    <Property name="useNullLayout" type="boolean" value="false"/>
+  </Layout>
+  <SubComponents>
+    <Component class="javax.swing.JTextField" name="cedulatxt">
+      <Properties>
+        <Property name="horizontalAlignment" type="int" value="2"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="cedulatxtActionPerformed"/>
+        <EventHandler event="keyReleased" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="cedulatxtKeyReleased"/>
+      </Events>
+      <Constraints>
+        <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+          <AbsoluteConstraints x="120" y="10" width="276" height="-1"/>
+        </Constraint>
+      </Constraints>
+    </Component>
+    <Component class="javax.swing.JTextField" name="nombretxt">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="nombretxtActionPerformed"/>
+        <EventHandler event="keyReleased" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="nombretxtKeyReleased"/>
+      </Events>
+      <Constraints>
+        <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+          <AbsoluteConstraints x="120" y="50" width="276" height="-1"/>
+        </Constraint>
+      </Constraints>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel1">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="C&#xe9;dula"/>
+      </Properties>
+      <Constraints>
+        <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+          <AbsoluteConstraints x="60" y="10" width="-1" height="-1"/>
+        </Constraint>
+      </Constraints>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel2">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Nombre"/>
+      </Properties>
+      <Constraints>
+        <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+          <AbsoluteConstraints x="50" y="50" width="-1" height="-1"/>
+        </Constraint>
+      </Constraints>
+    </Component>
+    <Container class="javax.swing.JScrollPane" name="jScrollPane1">
+      <AuxValues>
+        <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+      </AuxValues>
+      <Constraints>
+        <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+          <AbsoluteConstraints x="449" y="8" width="600" height="429"/>
+        </Constraint>
+      </Constraints>
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+      <SubComponents>
+        <Component class="javax.swing.JTable" name="jTabla">
+          <Properties>
+            <Property name="autoCreateRowSorter" type="boolean" value="true"/>
+            <Property name="model" type="javax.swing.table.TableModel" editor="org.netbeans.modules.form.editors2.TableModelEditor">
+              <Table columnCount="0" rowCount="0"/>
+            </Property>
+            <Property name="autoResizeMode" type="int" value="4"/>
+            <Property name="tableHeader" type="javax.swing.table.JTableHeader" editor="org.netbeans.modules.form.editors2.JTableHeaderEditor">
+              <TableHeader reorderingAllowed="true" resizingAllowed="true"/>
+            </Property>
+          </Properties>
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_CreateCodeCustom" type="java.lang.String" value="new javax.swing.JTable(){public boolean isCellEditable(int row, int column){&#xa;    return false;&#xa;}}"/>
+            <AuxValue name="JavaCodeGenerator_InitCodePre" type="java.lang.String" value="jTabla.setSelectionMode(ListSelectionModel.SINGLE_SELECTION);&#xa;ListSelectionModel rowSM = jTabla.getSelectionModel();&#xa;rowSM.addListSelectionListener(new ListSelectionListener() {&#xa;//agrego el evento para detectar el cambio de seleccion de filas en la tabla&#xa;    public void valueChanged(ListSelectionEvent e) {&#xa;        //Ignore extra messages.&#xa;        if (e.getValueIsAdjusting()) return;&#xa;&#xa;        ListSelectionModel lsm =&#xa;            (ListSelectionModel)e.getSource();&#xa;&#xa;        if (lsm.isSelectionEmpty()) {&#xa;        &#xa;        } else {&#xa;          // System.out.println(jTabla.getSelectedRow()) ;&#xa;     &#xa;if(jTabla.getValueAt( jTabla.getSelectedRow(),0)==null){&#xa;nombretxt.setText(&quot;&quot;);&#xa;}else{&#xa;nombretxt.setText(jTabla.getValueAt( jTabla.getSelectedRow(),0).toString());&#xa;}&#xa;&#xa;if(jTabla.getValueAt(jTabla.getSelectedRow(),1)==null){&#xa;lecturatxt.setText(&quot;&quot;);&#xa;&#xa;jButton3.doClick();&#xa;&#xa;}else{&#xa;try{&#xa;     cedulatxt.setText(jTabla.getValueAt(jTabla.getSelectedRow(),1).toString());&#xa;     ResultSet datos = conexion.ejecutarSQLSelect(&quot;select lectura  from lecturas where month(fecha_lectura)=&apos;&quot;+String.valueOf(Integer.parseInt(new SimpleDateFormat(&quot;MM&quot;).format(fechaCalendar.getDate())))+&quot;&apos; and personas_idpersonas=(select idpersonas from personas where cedula=&apos;&quot;+cedulatxt.getText()+&quot;&apos;);&quot;);&#xa;int numeroLecturas=0;&#xa;    while (datos.next()) {&#xa;&#xa;             numeroLecturas= Integer.parseInt(datos.getString(&quot;lectura&quot;));&#xa;&#xa;            }&#xa;//System.out.println(&quot;select lectura  from lecturas where month(fecha_lectura)=&apos;&quot;+String.valueOf(Integer.parseInt(new SimpleDateFormat(&quot;MM&quot;).format(fechaCalendar.getDate())))+&quot;&apos; and personas_idpersonas=(select idpersonas from personas where cedula=&apos;&quot;+cedulatxt.getText()+&quot;&apos;);&quot;);&#xa;//System.out.println(&quot;&quot;+numeroLecturas);&#xa;            if(numeroLecturas==0){&#xa;lecturatxt.setText(&quot;0&quot;);&#xa;visto.setVisible(false);&#xa;nombretxt.setEnabled(false);&#xa;cedulatxt.setEnabled(false);&#xa;modificarbtn.setText(&quot;Modificar&quot;);&#xa;  modificarbtn.setVisible(false);&#xa;ingresarbtn.setVisible(true);&#xa;&#xa;&#xa;&#xa;}else{&#xa;                visto.setVisible(true);&#xa;                modificarbtn.setVisible(true);&#xa;                ingresarbtn.setVisible(false);&#xa;&#xa;lecturatxt.setText(&quot;&quot;+numeroLecturas);&#xa;                    nombretxt.setEnabled(false);&#xa;                    cedulatxt.setEnabled(false);&#xa;modificarbtn.setText(&quot;Modificar&quot;);&#xa;&#xa;&#xa;&#xa;}&#xa;       } catch (SQLException ex) {&#xa;            Logger.getLogger(ingresarLecturas.class.getName()).log(Level.SEVERE, null, ex);&#xa;        }&#xa;}&#xa;&#xa;&#xa;&#xa;   &#xa;&#xa;&#xa;&#xa;&#xa;&#xa;&#xa;     &#xa;&#xa;&#xa;&#xa;&#xa;        }&#xa;    }&#xa;});"/>
+          </AuxValues>
+        </Component>
+      </SubComponents>
+    </Container>
+    <Component class="com.toedter.calendar.JDateChooser" name="fechaCalendar">
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_InitCodePre" type="java.lang.String" value="fechaCalendar.addPropertyChangeListener(new java.beans.PropertyChangeListener(){ &#xa;        public void propertyChange(java.beans.PropertyChangeEvent evt) {&#xa;                //Aqu&#xed; agregaremos la funcionalidad que queremos&#xa;                //por ejemplo al seleccionar una fecha le mostrare un di&#xe1;logo con la fecha de hoy&#xa;fechaCalendar.propertyChange(evt);&#xa;}&#xa;});&#xa;&#xa;fechaCalendar.getDateEditor().addPropertyChangeListener(new java.beans.PropertyChangeListener(){&#xa; public void propertyChange(java.beans.PropertyChangeEvent evt){&#xa;if(fechaCalendar.getDate()!=null){&#xa;try{    &#xa;&#xa;rellenarCasillas();&#xa;                  ResultSet  datos = conexion.ejecutarSQLSelect(&quot;select lectura  from lecturas where year(fecha_lectura)=&apos;&quot; + String.valueOf(Integer.parseInt(new SimpleDateFormat(&quot;yyyy&quot;).format(fechaCalendar.getDate()))) + &quot;&apos; and month(fecha_lectura)=&apos;&quot; + String.valueOf(Integer.parseInt(new SimpleDateFormat(&quot;MM&quot;).format(fechaCalendar.getDate()))) + &quot;&apos; and personas_idpersonas=(select idpersonas from personas where cedula=&apos;&quot; + cedulatxt.getText() + &quot;&apos;);&quot;);&#xa;                    int numeroLecturas = 0;&#xa;                    while (datos.next()) {&#xa;&#xa;                        numeroLecturas = Integer.parseInt(datos.getString(&quot;lectura&quot;));&#xa;&#xa;                    }&#xa;//System.out.println(&quot;select lectura  from lecturas where month(fecha_lectura)=&apos;&quot;+String.valueOf(Integer.parseInt(new SimpleDateFormat(&quot;MM&quot;).format(fechaCalendar.getDate())))+&quot;&apos; and personas_idpersonas=(select idpersonas from personas where cedula=&apos;&quot;+cedulatxt.getText()+&quot;&apos;);&quot;);&#xa;//System.out.println(&quot;&quot;+numeroLecturas);&#xa;                    if (numeroLecturas == 0) {&#xa;                        lecturatxt.setText(&quot;&quot;);&#xa;                        visto.setVisible(false);&#xa;                         modificarbtn.setVisible(false);&#xa;                         ingresarbtn.setVisible(true);&#xa;&#xa;                    } else {&#xa;                        visto.setVisible(true);&#xa;                        modificarbtn.setVisible(true);&#xa;                        ingresarbtn.setVisible(false);&#xa;&#xa;                        lecturatxt.setText(&quot;&quot; + numeroLecturas);&#xa;&#xa;                    }&#xa;} catch (SQLException ex) {&#xa;                Logger.getLogger(ClientesAdmin.class.getName()).log(Level.SEVERE, null, ex);&#xa;            }&#xa;&#xa;}&#xa;}&#xa;});"/>
+      </AuxValues>
+      <Constraints>
+        <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+          <AbsoluteConstraints x="120" y="110" width="170" height="-1"/>
+        </Constraint>
+      </Constraints>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel3">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Fecha Lectura"/>
+      </Properties>
+      <Constraints>
+        <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+          <AbsoluteConstraints x="10" y="110" width="-1" height="-1"/>
+        </Constraint>
+      </Constraints>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel4">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Valor Lectura"/>
+      </Properties>
+      <Constraints>
+        <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+          <AbsoluteConstraints x="10" y="170" width="-1" height="-1"/>
+        </Constraint>
+      </Constraints>
+    </Component>
+    <Component class="javax.swing.JTextField" name="lecturatxt">
+      <Constraints>
+        <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+          <AbsoluteConstraints x="120" y="170" width="141" height="-1"/>
+        </Constraint>
+      </Constraints>
+    </Component>
+    <Component class="javax.swing.JButton" name="ingresarbtn">
+      <Properties>
+        <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+          <Image iconType="3" name="/iconos/guardar.png"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Ingresar"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="ingresarbtnActionPerformed"/>
+      </Events>
+      <Constraints>
+        <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+          <AbsoluteConstraints x="100" y="210" width="-1" height="-1"/>
+        </Constraint>
+      </Constraints>
+    </Component>
+    <Component class="javax.swing.JButton" name="modificarbtn">
+      <Properties>
+        <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+          <Image iconType="3" name="/iconos/editar.png"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Modificar"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="modificarbtnActionPerformed"/>
+      </Events>
+      <Constraints>
+        <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+          <AbsoluteConstraints x="230" y="210" width="-1" height="-1"/>
+        </Constraint>
+      </Constraints>
+    </Component>
+    <Component class="javax.swing.JLabel" name="visto">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="registrado"/>
+      </Properties>
+      <Constraints>
+        <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+          <AbsoluteConstraints x="270" y="170" width="-1" height="-1"/>
+        </Constraint>
+      </Constraints>
+    </Component>
+    <Component class="javax.swing.JButton" name="jButton3">
+      <Properties>
+        <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+          <Image iconType="3" name="/iconos/goma-de-borrar.png"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Limpiar"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton3ActionPerformed"/>
+      </Events>
+      <Constraints>
+        <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+          <AbsoluteConstraints x="290" y="390" width="140" height="41"/>
+        </Constraint>
+      </Constraints>
+    </Component>
+    <Component class="javax.swing.JButton" name="jButton1">
+      <Properties>
+        <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+          <Image iconType="3" name="/iconos/salida.png"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Cancelar"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton1ActionPerformed"/>
+      </Events>
+      <Constraints>
+        <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+          <AbsoluteConstraints x="910" y="440" width="140" height="40"/>
+        </Constraint>
+      </Constraints>
+    </Component>
+  </SubComponents>
+</Form>
